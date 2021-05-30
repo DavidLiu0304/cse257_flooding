@@ -12,9 +12,9 @@ def main():
     basic_setting = {
         'labels': 'synth,simple',
         'epochs': 200,
-        'label_noise': 0.1,
+        'label_noise': 0.40, # changed from 0.1
         'model': 'mlp_model',
-        'dataset': 'sinusoid2d',
+        'dataset': 'sinusoid2d', # gaussian, sinusoid2d, spiral
         'dimension': 2,
     }
     params_choices = {
@@ -22,7 +22,7 @@ def main():
             'optimizer': 'sgd',
             'learning_rate': 0.01,
             'momentum': 0.9,
-            'fl_arr': np.r_[0.0, 0.26, 0.27, 0.28],
+            'fl_arr': np.r_[0.0, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50], #[0.0, 0.26, 0.27, 0.28]
         },
         'setting2': {
             'optimizer': 'adam',

@@ -1,0 +1,39 @@
+Setup
+
+flood level: 0.00 - 0.50 in increments of 0.05
+
+Sinusoid
+noise: 0.01
+Test Acc. 95.700, Train Acc. 100.000: without flooding
+Test Acc. 94.665, Train Acc. 100.000: with flooding 0.05
+
+noise: 0.05
+Test Acc. 94.855, Train Acc. 100.000: without flooding
+Test Acc. 96.155, Train Acc. 100.000: with flooding 0.1
+
+noise: 0.10
+Test Acc. 94.880, Train Acc. 98.000: without flooding
+Test Acc. 96.155, Train Acc. 100.000: with flooding 0.1
+
+noise: 0.20
+Test Acc. 92.890, Train Acc. 96.000: without flooding
+Test Acc. 100.000, Train Acc. 100.000: with flooding 0.15
+
+noise: 0.30
+Test Acc. 82.815, Train Acc. 83.000: without flooding
+Test Acc. 100.000, Train Acc. 100.000: with flooding 0.15
+
+
+Spiral
+noise: 0.01
+Test Acc. 100.000, Train Acc. 100.000: without flooding
+Test Acc. 100.000, Train Acc. 100.000: with flooding 0.05
+
+noise: 0.05
+Test Acc. 99.585, Train Acc. 99.500: without flooding
+Test Acc. 100.000, Train Acc. 100.000: with flooding 0.15
+
+noise: 0.10
+Test Acc. 95.890, Train Acc. 96.500: without flooding
+Test Acc. 100.000, Train Acc. 100.000: with flooding 0.15
+
